@@ -19,6 +19,7 @@
   <project path="frameworks/base" name="TipsyOs/frameworks_base" remote="github" revision="m6.0" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/telephony" name="TipsyOs/frameworks_opt_telephony" remote="github" revision="mm6.0" />
+  <project path="frameworks/av" name="TipsyOs/frameworks_av" remote="github" revision="mm6.0" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="mm6.0"  />
@@ -267,7 +268,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="mm6.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
