@@ -16,6 +16,7 @@
   </project>
   <project path="external/sepolicy" name="slim-opt/android_external_sepolicy" remote="github" revision="mm6.0" />
   <project path="packages/apps/Settings" name="slim-opt/packages_apps_Settings" remote="github" revision="tipsy" />
+  <project path="frameworks/base" name="slim-opt/frameworks_base" remote="github" revision="tipsy" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="mm6.0"  />
@@ -265,7 +266,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="mm6.0" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="mm6.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
