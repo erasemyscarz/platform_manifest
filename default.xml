@@ -522,7 +522,7 @@
   <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="mm6.0" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/tipsy" name="slim-opt/vendor_slim" remote="github" revision="tipsy" />
+  <project path="vendor/tipsy" name="TipsyOs/vendor_slim" remote="github" revision="m6.0" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="mm6.0" />
