@@ -14,6 +14,7 @@
   <project path="build" name="TipsyOs/android_build" remote="github" revision="m6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="vendor/tipsy" name="TipsyOs/vendor_tipsy" remote="github" revision="m6.0" />
   <project path="external/sepolicy" name="TipsyOs/android_external_sepolicy" remote="github" revision="mm6.0" />
   <project path="packages/apps/Settings" name="TipsyOs/packages_apps_Settings" remote="github" revision="m6.0" />
   <project path="frameworks/base" name="TipsyOs/frameworks_base" remote="github" revision="m6.0" />
@@ -32,6 +33,7 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-13.0" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="cm-13.0" />
 
@@ -351,7 +353,6 @@
   <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0-caf" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/display-caf/apq8084" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8226" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8226" />
@@ -524,7 +525,8 @@
   <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="mm6.0" />
 
   <!-- New Additions for Tipsy -->
-  <project path="vendor/tipsy" name="TipsyOs/vendor_tipsy" remote="github" revision="m6.0" />
+  <project name="TipsyOs/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
+
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="mm6.0" />
