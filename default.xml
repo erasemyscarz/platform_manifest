@@ -7,6 +7,9 @@
            fetch="git://github.com/"
            review="https://review.slimroms.org/"/>
 
+  <remote name="bb"
+          fetch="https://bitbucket.org/" />
+
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="8" />
@@ -543,6 +546,15 @@
 
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="mm6.0" />
+
+    <!-- Uber Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-uber" name="UBERTC/arm-eabi-5.2" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-uber" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2-uber" name="UBERTC/arm-linux-androideabi-5.2" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.2-kernel" name="UBERTC/aarch64-linux-android-5.2-kernel" remote="bb" revision="master" />
 
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="mm6.0" />
