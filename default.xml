@@ -12,7 +12,7 @@
 
   <default revision="refs/tags/android-6.0.0_r5"
            remote="aosp"
-           sync-j="8" />
+           sync-j="4" />
 <!-- Start Tipsy -->
   <project path="build" name="TipsyOs/tipsy_build" remote="github" revision="m6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -23,7 +23,7 @@
   <project path="frameworks/base" name="TipsyOs/frameworks_base" remote="github" revision="m6.0" />
   <project path="device/qcom/sepolicy" name="TipsyOs/device_qcom_sepolicy" remote="github" revision="m6.0" />
 
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="mm6.0" />
+  <project path="frameworks/av" name="TipsyOs/frameworks_av" remote="github" revision="m6.0" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="mm6.0" />
 
 <!-- OTA -->
