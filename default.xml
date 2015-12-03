@@ -537,6 +537,8 @@
 
   <!-- New Additions for Tipsy -->
   <project name="TipsyOs/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
 
 
   <!-- CAF repos -->
