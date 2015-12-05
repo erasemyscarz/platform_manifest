@@ -51,6 +51,7 @@
 <!-- Telephony -->
   <project path="frameworks/opt/net/wifi" name="TipsyOs/frameworks_opt_net_wifi" remote="github" revision="m6.0" />
   <project path="frameworks/opt/telephony" name="TipsyOs/frameworks_opt_telephony" remote="github" revision="m6.0" />
+  <project path="packages/apps/ContactsCommon" name="TipsyOs/packages_apps_ContactsCommon" remote="github" revision="m6.0" />
   <project path="packages/apps/InCallUI" name="TipsyOs/packages_apps_InCallUI" remote="github" revision="m6.0" />
   <project path="packages/services/Telecomm" name="TipsyOs/packages_services_Telecomm" remote="github" revision="m6.0" />
   <project path="packages/services/Telephony" name="TipsyOs/packages_services_Telephony" remote="github" revision="m6.0" />
@@ -419,7 +420,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="mm6.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="mm6.0" />
-  <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" remote="github" revision="mm6.0" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="mm6.0" />
   <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" remote="github" revision="mm6.0" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="mm6.0" />
