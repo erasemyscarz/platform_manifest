@@ -13,7 +13,7 @@ To get started with Tipsy, you'll need to get familiar with
 To initialize your local repository using the TipsyOs trees, use this command:
 
 
-	repo init -u git://github.com/TipsyOs/platform_manifest.git -b testing
+	repo init -u git://github.com/TipsyOs/platform_manifest.git -b m6.0
 
 
 
