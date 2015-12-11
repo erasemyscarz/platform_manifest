@@ -13,7 +13,7 @@
   <default revision="refs/tags/android-6.0.0_r5"
            remote="aosp"
            sync-j="4" />
-<!-- Start Tipsy Testing -->
+<!-- Start Tipsy -->
   <project path="build" name="TipsyOs/tipsy_build" remote="github" revision="m6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
