@@ -14,6 +14,12 @@ To initialize your local repository using the TipsyOs trees, use this command:
 
 
 	repo init -u git://github.com/TipsyOs/platform_manifest.git -b m6.0
+	
+
+To initialize your local repository using the TipsyOs Xperia Z lines trees, use this command:
+
+
+	repo init -u git://github.com/TipsyOs/platform_manifest.git -b sony
 
 
 
