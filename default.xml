@@ -19,8 +19,8 @@
   </project>
   <project path="bionic" name="tipsyOs/android_bionic" remote="github" revision="m6.0" />
   <project path="vendor/tipsy" name="TipsyOs/vendor_tipsy" remote="github" revision="m6.0" />
-  <project path="vendor/qcom/opensource/dataservices" name="TipsyOs/android_vendor_qcom_opensource_dataservices" remote="github" revision="sony" />
-  <project path="external/busybox" name="TipsyOs/android_external_busybox" remote="github" revision="sony" />
+  <project path="vendor/qcom/opensource/dataservices" name="TipsyOs/vendor_qcom_opensource_dataservices" remote="github" revision="sony" />
+  <project path="external/busybox" name="TipsyOs/external_busybox" remote="github" revision="sony" />
   <project path="external/sepolicy" name="TipsyOs/android_external_sepolicy" remote="github" revision="m6.0" />
   <project path="packages/inputmethods/LatinIME" name="TipsyOs/packages_inputmethods_LatinIME" remote="github" revision="m6.0" />
   <project path="packages/apps/Messaging" name="TipsyOs/packages_apps_Messaging" remote="github" revision="m6.0" />
