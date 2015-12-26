@@ -10,12 +10,6 @@ To get started with Tipsy, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 
-To initialize your local repository using the TipsyOs trees, use this command:
-
-
-	repo init -u git://github.com/TipsyOs/platform_manifest.git -b m6.0
-
-
 To initialize your local repository using the TipsyOs Xperia Z lines trees, use this command:
 
 
