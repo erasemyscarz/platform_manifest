@@ -40,7 +40,6 @@
   <project path="packages/apps/SlimOTA" name="TipsyOs/packages_apps_SlimOTA" remote="github" revision="lp5.1" />
 
 <!-- Temp CM Stuffs-->
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-13.0" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-13.0" />
