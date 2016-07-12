@@ -51,12 +51,12 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
-  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
   <!-- OMS -->
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" revision="oms" />
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" revision="oms" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" revision="oms" />
+  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" revision="oms" />
 
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tipsy" />
