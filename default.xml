@@ -44,17 +44,19 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="tipsy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="tipsy" />
   <project path="frameworks/av" name="frameworks_av" remote="tipsy" />
-  <project path="frameworks/base" name="frameworks_base" remote="tipsy" revision="testing" />
-  <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="tipsy" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="tipsy" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tipsy" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tipsy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" revision="testing" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
+
+  <!-- OMS -->
+  <project path="frameworks/base" name="frameworks_base" remote="tipsy" revision="oms" />
+  <project path="frameworks/native" name="frameworks_native" remote="tipsy" revision="oms" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" revision="oms" />
 
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tipsy" />
