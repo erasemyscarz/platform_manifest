@@ -57,6 +57,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" revision="oms" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" revision="oms" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" revision="oms" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tipsy" />
